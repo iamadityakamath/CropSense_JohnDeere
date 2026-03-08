@@ -1,0 +1,182 @@
+{
+  "session_id": "a10216af965e4871bf2943057016d205",
+  "image_url": "https://hmpbluqetyssiccpxzzp.supabase.co/storage/v1/object/public/crop-images/uploads/b585c580449045e695ba77cadc3162f3.jpg",
+  "field_conditions": {
+    "latitude": 40.11031275758007,
+    "longitude": -88.2171080651726,
+    "temperature_c": 4.0,
+    "windspeed_kmh": 13.7,
+    "condition_code": 3,
+    "is_day": false,
+    "humidity_%": 92,
+    "feels_like_c": 2.2,
+    "precipitation_mm": 0.0,
+    "rain_mm": 0.0,
+    "snowfall_cm": 0.0,
+    "uv_index": 0.15,
+    "cloudcover_%": 100,
+    "windirection_deg": 275,
+    "soil_temperature_c": 7.7,
+    "soil_moisture_%": 0.319,
+    "evapotranspiration_mm": 0.0
+  },
+  "crop_diagnosis": {
+    "status_code": 200,
+    "response": {
+      "weather_context": {
+        "temperature": 4.0,
+        "temperature_unit": "celsius",
+        "humidity": 92,
+        "precipitation_recent": 0.0,
+        "precipitation_unit": "mm",
+        "wind_speed": 13.7,
+        "wind_speed_unit": "kmh",
+        "conditions": "Cloudy, very high humidity, cool temperature, no recent precipitation",
+        "disease_pressure": "low",
+        "disease_favorable_conditions": false,
+        "weather_impact_analysis": "Relative humidity is very high (92%) with full cloud cover, so leaf wetness from dew is likely, which supports fungal spore germination. However, at 4\u00c2\u00b0C, infection and lesion expansion for most foliar corn pathogens, including Exserohilum turcicum, are strongly suppressed; optimal activity typically occurs once temperatures warm into the mid-teens to upper 20s \u00c2\u00b0C. Moderate wind (13.7 km/h) can aid spore movement, but new infections are unlikely to progress rapidly until temperatures rise. Overall, current weather imposes moisture conducive to disease but temperatures are too low for rapid development."
+      },
+      "image_description": {
+        "crop_type": "corn (maize)",
+        "affected_parts": [
+          "leaf"
+        ],
+        "plant_condition": "Single large, elliptical tan lesion with a darker brown margin and lighter center; surrounding leaf tissue appears green and turgid.",
+        "environment": "Appears to be an outdoor or semi-sheltered setting under diffuse/cloudy light; leaf surface likely moist from dew or high humidity."
+      },
+      "disease_indicators": {
+        "discoloration": {
+          "present": true,
+          "types": [
+            "tan",
+            "brown",
+            "yellow halo (subtle)"
+          ],
+          "description": "A cigar-shaped lesion with a tan center and darker brown margin; slight chlorotic halo may be present around the lesion."
+        },
+        "lesions_or_spots": {
+          "present": true,
+          "characteristics": {
+            "size": "approximately 1\u00e2\u0080\u00933 cm long",
+            "shape": "elliptical/cigar-shaped",
+            "color": "tan center with brown margins",
+            "texture": "dry, slightly sunken",
+            "distribution": "isolated (one prominent lesion visible on the photographed leaf)"
+          }
+        },
+        "wilting": {
+          "present": false,
+          "severity": ""
+        },
+        "growth_abnormalities": {
+          "present": false,
+          "types": []
+        },
+        "surface_changes": {
+          "present": false,
+          "description": ""
+        },
+        "necrosis": {
+          "present": true,
+          "location": "lesion center on the leaf blade",
+          "extent": "localized to the lesion; surrounding tissue remains green"
+        }
+      },
+      "diagnosis": {
+        "disease_name": {
+          "common_name": "Northern Corn Leaf Blight",
+          "scientific_name": "Exserohilum turcicum (syn. Setosphaeria turcica)"
+        },
+        "pathogen_type": "fungal",
+        "confidence_level": "medium",
+        "key_diagnostic_features": [
+          "Large, elliptical (cigar-shaped) tan lesions with darker borders",
+          "Lesions aligned with leaf veins and having necrotic centers",
+          "Typical initial presentation as isolated large lesions on leaves"
+        ],
+        "differential_diagnoses": [
+          {
+            "disease_name": "Gray leaf spot (Cercospora zeae-maydis)",
+            "likelihood": "Less likely; GLS lesions are usually rectangular with straight sides restricted by veins and require warmer temperatures to develop rapidly."
+          },
+          {
+            "disease_name": "Anthracnose leaf blight (Colletotrichum graminicola)",
+            "likelihood": "Possible but less likely; anthracnose lesions often begin water-soaked and can have irregular shapes with yellow/orange tints; single large, uniformly elliptical tan lesion is more typical of NCLB."
+          },
+          {
+            "disease_name": "Eyespot (Aureobasidium zeae/Kabatiella zeae)",
+            "likelihood": "Less likely; eyespot lesions are typically small, circular with a distinct yellow halo and do not usually form large cigar-shaped lesions."
+          }
+        ],
+        "severity": "early_stage",
+        "weather_correlation": "High humidity supports spore survival and germination, but the current temperature (4\u00c2\u00b0C) is well below the optimal range for Northern Corn Leaf Blight infection and lesion expansion (generally favored around 18\u00e2\u0080\u009327\u00c2\u00b0C with prolonged leaf wetness). Expect slow progression now, with risk of acceleration if temperatures warm while humidity and leaf wetness persist."
+      },
+      "recommendations": {
+        "immediate_actions": [
+          "Avoid field operations while foliage is wet to minimize spore spread on equipment and clothing.",
+          "Flag or map affected plants and scout adjacent rows to determine incidence and whether lesions are appearing on new leaves.",
+          "In small plantings only, consider removing and discarding leaves with large lesions to reduce local inoculum; do not compost diseased tissue."
+        ],
+        "treatment_options": [
+          {
+            "method": "Foliar fungicide (FRAC 3 triazoles, FRAC 11 QoIs, or premix with FRAC 7 SDHIs) applied based on thresholds",
+            "description": "Apply a labeled fungicide when disease is present on lower/mid canopy prior to tasseling or around VT\u00e2\u0080\u0093R1 if the hybrid is susceptible and weather is forecast to be favorable (warm, humid, extended leaf wetness). Rotate/alternate FRAC groups to manage resistance; ensure good coverage.",
+            "effectiveness": "High when applied preventively or at early lesion development and before extensive canopy involvement.",
+            "weather_timing": "Wait for a dry window with no rain/dew expected for 12\u00e2\u0080\u009324 hours after spraying and when temperatures rise above ~10\u00e2\u0080\u009315\u00c2\u00b0C to aid drying and reduce wash-off; avoid spraying during very cool, wet, or windy periods."
+          },
+          {
+            "method": "Biologicals (e.g., Bacillus or Trichoderma-based products) as preventives",
+            "description": "May provide supplemental protection by colonizing leaf surfaces; use as part of an integrated program and not as a sole curative measure.",
+            "effectiveness": "Variable to moderate; best when applied preventively under anticipated conducive weather.",
+            "weather_timing": "Apply ahead of forecasted warm, humid periods; avoid immediate rainfall that can wash products off."
+          }
+        ],
+        "preventive_measures": [
+          "Plant hybrids with documented resistance/tolerance to Northern Corn Leaf Blight.",
+          "Rotate away from corn for at least one year to reduce residue-borne inoculum; manage corn residue (e.g., tillage where appropriate) to hasten decomposition.",
+          "Avoid overly dense canopies and improve air movement through agronomic practices appropriate for your system.",
+          "Irrigate, if applicable, to minimize prolonged leaf wetness (water early morning to speed drying).",
+          "Use fungicide modes of action responsibly (rotate/alternate FRAC groups) to slow resistance development."
+        ],
+        "monitoring_advice": "Scout weekly; examine lower and mid-canopy for new cigar-shaped tan lesions. Increase scouting frequency when nighttime humidity remains >90% with prolonged dew/leaf wetness and daily highs are forecast to exceed 15\u00e2\u0080\u009318\u00c2\u00b0C. Record hybrid, planting date, lesion counts, and canopy position to inform VT\u00e2\u0080\u0093R1 fungicide decisions.",
+        "weather_based_recommendations": [
+          "Hold fungicide applications until a warmer, dry window is forecast (temperatures consistently >10\u00e2\u0080\u009315\u00c2\u00b0C and 12\u00e2\u0080\u009324 h without precipitation or heavy dew) to ensure drying and coverage.",
+          "If a warm, humid spell (15\u00e2\u0080\u009327\u00c2\u00b0C with extended leaf wetness) is expected, prioritize rapid scouting and be prepared to treat at early symptom expansion, especially on susceptible hybrids or fields with heavy residue.",
+          "If cool conditions persist, disease progress will likely remain slow; reassess in 5\u00e2\u0080\u00937 days and after any significant warm-up."
+        ],
+        "lab_confirmation_recommended": true
+      },
+      "sources": [
+        {
+          "title": "Northern Corn Leaf Blight of Maize: Pathogen Biology and Integrated Disease Management",
+          "author": "Bartaula et al.",
+          "type": "research_paper",
+          "url": "https://www.frontiersin.org/articles/10.3389/fpls.2019.00138/full",
+          "year": 2019
+        },
+        {
+          "title": "Northern Corn Leaf Blight",
+          "author": "Purdue University Extension",
+          "type": "extension_publication",
+          "url": "https://www.extension.purdue.edu/extmedia/BP/BP-84-W.pdf",
+          "year": 2022
+        },
+        {
+          "title": "Northern Corn Leaf Blight",
+          "author": "Crop Protection Network",
+          "type": "extension_publication",
+          "url": "https://cropprotectionnetwork.org/resources/articles/diseases/northern-corn-leaf-blight",
+          "year": 2020
+        },
+        {
+          "title": "Corn leaf diseases: Northern corn leaf blight",
+          "author": "University of Minnesota Extension",
+          "type": "university_publication",
+          "url": "https://extension.umn.edu/corn-pest-management/northern-corn-leaf-blight",
+          "year": 2021
+        }
+      ],
+      "limitations": "***The CropWizard database doesn't have anything covering this exact question, but here's what I know from my general world knowledge.*** Diagnosis is based on visible symptoms from a single image and current weather conditions without lab testing. Early lesions of multiple foliar diseases can appear similar; microscopy or molecular testing may be needed to confirm Exserohilum turcicum and to rule out gray leaf spot, anthracnose, or eyespot, especially before making fungicide investments."
+    }
+  }
+}

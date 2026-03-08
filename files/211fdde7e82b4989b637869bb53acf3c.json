@@ -1,0 +1,184 @@
+{
+  "session_id": "211fdde7e82b4989b637869bb53acf3c",
+  "image_url": "https://hmpbluqetyssiccpxzzp.supabase.co/storage/v1/object/public/crop-images/uploads/4093ceca6da14a9eaeda2d363df0b172.jpg",
+  "field_conditions": {
+    "latitude": 40.1123,
+    "longitude": -88.2432,
+    "temperature_c": 4.0,
+    "windspeed_kmh": 13.7,
+    "condition_code": 3,
+    "is_day": false,
+    "humidity_%": 91,
+    "feels_like_c": 2.0,
+    "precipitation_mm": 0.0,
+    "rain_mm": 0.0,
+    "snowfall_cm": 0.0,
+    "uv_index": 0.15,
+    "cloudcover_%": 100,
+    "windirection_deg": 274,
+    "soil_temperature_c": 7.6,
+    "soil_moisture_%": 0.319,
+    "evapotranspiration_mm": 0.0
+  },
+  "crop_diagnosis": {
+    "status_code": 200,
+    "response": {
+      "weather_context": {
+        "temperature": 4.0,
+        "temperature_unit": "celsius",
+        "humidity": 91,
+        "precipitation_recent": 0.0,
+        "precipitation_unit": "mm",
+        "wind_speed": 13.7,
+        "wind_speed_unit": "kmh",
+        "conditions": "Overcast night, cool (4\u00c2\u00b0C), very high humidity (91%), light to moderate westerly wind (~274\u00c2\u00b0), no recent precipitation.",
+        "disease_pressure": "moderate",
+        "disease_favorable_conditions": false,
+        "weather_impact_analysis": "At 4\u00c2\u00b0C, active infection and sporulation for most foliar fungi are slowed (many are most aggressive ~15\u00e2\u0080\u009325\u00c2\u00b0C), but 91% humidity and continuous cloud cover can maintain leaf wetness, allowing existing Septoria lesions to persist and slowly develop. With no recent rain, splash dispersal is limited now, though wind can still move some spores short distances on debris. Low evapotranspiration and cool soils (reported locally ~7\u00e2\u0080\u00938\u00c2\u00b0C) may stunt growth, making symptoms more apparent. If temperatures warm (>10\u00c2\u00b0C) with rain or prolonged dew, disease risk will increase quickly."
+      },
+      "image_description": {
+        "crop_type": "Wheat (Triticum aestivum)",
+        "affected_parts": [
+          "leaves"
+        ],
+        "plant_condition": "Plants show slow growth with numerous brown, elongated to oval lesions on leaves; overall vigor appears reduced.",
+        "environment": "Dense canopy under heavy cloud cover; multiple leaves per tiller show spotting typical of foliar blotch diseases."
+      },
+      "disease_indicators": {
+        "discoloration": {
+          "present": true,
+          "types": [
+            "browning",
+            "chlorotic halos"
+          ],
+          "description": "Brown lesions with yellow chlorotic margins on leaf blades, more common on lower to mid canopy."
+        },
+        "lesions_or_spots": {
+          "present": true,
+          "characteristics": {
+            "size": "small to medium (\u00e2\u0089\u00882\u00e2\u0080\u00936 mm, some elongated)",
+            "shape": "oval to elongated, sometimes lens-shaped",
+            "color": "tan to brown centers with yellow halos",
+            "texture": "dry, necrotic centers; check for tiny black pycnidia under a hand lens",
+            "distribution": "scattered, multiple per leaf, starting on older leaves and progressing upward"
+          }
+        },
+        "wilting": {
+          "present": false,
+          "severity": ""
+        },
+        "growth_abnormalities": {
+          "present": true,
+          "types": [
+            "stunting",
+            "slow growth"
+          ]
+        },
+        "surface_changes": {
+          "present": false,
+          "description": ""
+        },
+        "necrosis": {
+          "present": true,
+          "location": "leaf lesions with tan-brown necrotic centers",
+          "extent": "localized to lesions; not systemic"
+        }
+      },
+      "diagnosis": {
+        "disease_name": {
+          "common_name": "Septoria (Zymoseptoria) Tritici Blotch",
+          "scientific_name": "Zymoseptoria tritici"
+        },
+        "pathogen_type": "fungal",
+        "confidence_level": "medium",
+        "key_diagnostic_features": [
+          "Elongated, tan-brown lesions with yellow chlorotic halos on wheat leaves, often first on lower leaves",
+          "Necrotic centers that may contain numerous tiny black pycnidia (requires hand lens to confirm)",
+          "Symptoms consistent with residue-borne foliar blotch favored by extended leaf wetness; current cool, humid weather supports lesion persistence and slow development"
+        ],
+        "differential_diagnoses": [
+          {
+            "disease_name": "Tan spot (Pyrenophora tritici-repentis)",
+            "likelihood": "Possible; lesions can be tan with yellow halos, but typically have more distinct elliptical spots with a tan center and can show a dark spot in the center under magnification; disease generally accelerates in warmer, wet conditions (\u00e2\u0089\u008815\u00e2\u0080\u009328\u00c2\u00b0C), which are not present now."
+          },
+          {
+            "disease_name": "Stagonospora nodorum blotch (Parastagonospora nodorum)",
+            "likelihood": "Possible but less likely from image alone; lesions also have pycnidia and can be lens-shaped; often associated with glume blotch later; lab confirmation needed to separate from Septoria."
+          },
+          {
+            "disease_name": "Nutrient deficiency or cold stress",
+            "likelihood": "Less likely; deficiencies usually cause diffuse chlorosis or tip burn rather than discrete necrotic lesions with halos; current cold can slow growth and mimic stress but does not explain the patterned spots."
+          }
+        ],
+        "severity": "moderate",
+        "weather_correlation": "The very high humidity and persistent cloud cover maintain leaf wetness, allowing STB lesions to persist and slowly expand; however, the cool 4\u00c2\u00b0C temperature is below the optimum for rapid infection and sporulation, so immediate epidemic spread is unlikely. Risk will rise quickly with warmer, wet conditions."
+      },
+      "recommendations": {
+        "immediate_actions": [
+          "Avoid entering fields when foliage is wet to minimize mechanical spread and leaf wetness duration.",
+          "Scout on dry days using a 10\u00e2\u0080\u009320 plant/field transect; inspect lower leaves for lesions with black pycnidia using a 10\u00e2\u0080\u009320\u00c3\u0097 hand lens.",
+          "Flag areas with higher severity to compare progression after warmer or rainy periods."
+        ],
+        "treatment_options": [
+          {
+            "method": "Foliar fungicide at early stem elongation to flag leaf (T1\u00e2\u0080\u0093T2)",
+            "description": "Apply an azole (e.g., prothioconazole, tebuconazole) often in mixture with an SDHI (e.g., fluxapyroxad, benzovindiflupyr) for Septoria control; avoid QoI (strobilurin) alone due to common resistance in Z. tritici; rotate FRAC groups.",
+            "effectiveness": "Moderate to high when timed before significant upper canopy infection (especially at T1/T2); less effective during prolonged cold or if lesions are already widespread on upper leaves.",
+            "weather_timing": "Apply when leaves are dry, wind is below ~15 km/h, and no rain/fog is forecast for 6\u00e2\u0080\u009312 hours post-application. Given current 4\u00c2\u00b0C, consider delaying until temperatures consistently exceed ~8\u00e2\u0080\u009310\u00c2\u00b0C and before a forecasted rain event to improve uptake and efficacy."
+          },
+          {
+            "method": "Residue and canopy management (non-chemical)",
+            "description": "Where feasible, reduce infected cereal residue and improve airflow (optimize seeding rate/row spacing) to decrease leaf wetness and inoculum carryover.",
+            "effectiveness": "Moderate for reducing future disease pressure; limited immediate impact in-season.",
+            "weather_timing": "Implement post-harvest or during non-rainy windows; avoid disturbing wet residue during very humid periods to limit spore spread."
+          }
+        ],
+        "preventive_measures": [
+          "Plant resistant or tolerant wheat cultivars adapted to your region; consult local variety trials for STB ratings.",
+          "Rotate out of wheat and other small grains for at least one year to reduce residue-borne inoculum.",
+          "Manage and, where appropriate, incorporate or remove heavily infected residue after harvest.",
+          "Use balanced fertility (avoid excessive nitrogen) to prevent overly dense canopies that retain moisture.",
+          "Plan fungicide protection for upper leaves at key stages (T1/T2) when forecasts indicate warm, wet conditions conducive to STB."
+        ],
+        "monitoring_advice": "Inspect fields weekly while humidity remains high; increase to twice weekly if temperatures rise above 10\u00c2\u00b0C with forecasted rain or prolonged dew (>12 hours). Track lesion movement from lower to upper canopy and watch for pycnidia. If flag leaves begin to show new lesions ahead of a warm, rainy period, prioritize a fungicide spray window.",
+        "weather_based_recommendations": [
+          "With current cool (4\u00c2\u00b0C) but very humid conditions, hold off on fungicide until a warmer, dry spray window is available; target just before the next rain when temps exceed ~10\u00c2\u00b0C.",
+          "Avoid field operations when foliage is wet and winds are stronger, to reduce splash/mechanical spread and drift.",
+          "If the 7\u00e2\u0080\u009310 day outlook trends warmer with rain, schedule fungicide at T1/T2 to protect upper canopy leaves which drive yield."
+        ],
+        "lab_confirmation_recommended": true
+      },
+      "sources": [
+        {
+          "title": "Septoria Tritici Blotch of Wheat",
+          "author": "Purdue University Extension",
+          "type": "extension_publication",
+          "url": "https://extension.entm.purdue.edu/fieldcropsipm/diseases/septoria-tritici-blotch.php",
+          "year": 2017
+        },
+        {
+          "title": "Managing Wheat Diseases (MF2993)",
+          "author": "Kansas State University Extension",
+          "type": "university_publication",
+          "url": "https://bookstore.ksre.ksu.edu/pubs/MF2993.pdf",
+          "year": 2018
+        },
+        {
+          "title": "Wheat diseases: identification and management",
+          "author": "University of Illinois Extension",
+          "type": "university_publication",
+          "url": "https://extension.illinois.edu/blogs/good-growing/2021-06-30-wheat-diseases-identification-and-management",
+          "year": 2021
+        },
+        {
+          "title": "Tan Spot (Yellow Leaf Spot) of Wheat",
+          "author": "North Dakota State University Extension",
+          "type": "extension_publication",
+          "url": "https://www.ndsu.edu/agriculture/extension/publications/tan-spot-yellow-leaf-spot-wheat",
+          "year": 2020
+        }
+      ],
+      "limitations": "Image resolution limits confirmation of pycnidia, which is important to distinguish Septoria from other blotches. Cool weather may suppress symptom expression and blur differences with stress or nutrient issues. Laboratory diagnosis (e.g., microscopic examination of pycnidia/spores or PCR) is recommended before making significant fungicide investments or resistance-management decisions."
+    }
+  }
+}
