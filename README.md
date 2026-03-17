@@ -14,6 +14,29 @@ The system processes crop images, farmer descriptions, and geolocation context t
 
 ---
 
+## Demo Screens
+
+### Chat Interface
+![Chat Interface](Images/Chat%20interface.png)
+
+### Loading Screen
+![Loading Screen](Images/Loading%20Screen.png)
+
+### Processing Request
+![Processing Request](Images/Processing%20request.png)
+
+### Suggestion Generation
+![Suggestion Generation](Images/Suggestion%20Generation.png)
+
+---
+
+## Reports and PDF Links
+
+- [Sample Report (PDF)](Sample%20Report.pdf)
+- [CropSense Overview (PDF)](CropSense.pdf)
+
+---
+
 ## Architecture
 ```
 ┌─────────────────┐
