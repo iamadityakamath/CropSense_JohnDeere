@@ -16,17 +16,13 @@ The system processes crop images, farmer descriptions, and geolocation context t
 
 ## Demo Screens
 
-### Chat Interface
-![Chat Interface](Images/Chat%20interface.png)
+| Chat Interface | Loading Screen |
+|---|---|
+| <img src="Images/Chat%20interface.png" alt="Chat Interface" width="420" /> | <img src="Images/Loading%20Screen.png" alt="Loading Screen" width="420" /> |
 
-### Loading Screen
-![Loading Screen](Images/Loading%20Screen.png)
-
-### Processing Request
-![Processing Request](Images/Processing%20request.png)
-
-### Suggestion Generation
-![Suggestion Generation](Images/Suggestion%20Generation.png)
+| Processing Request | Suggestion Generation |
+|---|---|
+| <img src="Images/Processing%20request.png" alt="Processing Request" width="420" /> | <img src="Images/Suggestion%20Generation.png" alt="Suggestion Generation" width="420" /> |
 
 ---
 
